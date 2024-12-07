@@ -98,7 +98,7 @@ A robust Question-Answering (QA) tool built using Retrieval-Augmented Generation
         "CLOUD": Name of cloud service to be used,
         "TOP_K": Nuumber of retrivals to be made from vectorDB with given query,
         "HIGH_CONFIDENCE_THRESHOLD": High confidence threshold for retrieved chunk confidence value,
-        "LOW_CONFIDENCE_THRESHOLD": Low confidence threshold for retireved chunk confidence value.
+        "LOW_CONFIDENCE_THRESHOLD": Low confidence threshold for retrieved chunk confidence value.
     },
 
     "TOKENIZER":{
