@@ -1,0 +1,26 @@
+{
+    "OPENAI":{
+        "OPENAI_API_KEY": "",
+        "MODEL": "gpt-4o-mini",
+        "TEMPERATURE": 0.5,
+        "MAX_TOKENS": 700,
+        "EMBEDDING_MODEL": "text-embedding-ada-002"
+    },
+    
+    "PINECONE":{
+        "PINECONE_API_KEY": "",
+        "PINECONE_ENV": "us-east-1",
+        "DB_INDEX_NAME": "qa-tool-test",
+        "CLOUD": "aws",
+        "TOP_K": 7,
+        "HIGH_CONFIDENCE_THRESHOLD": 0.8,
+        "LOW_CONFIDENCE_THRESHOLD": 0.75
+    },
+
+    "TOKENIZER":{
+        "CHUNK_OVERLAP": 20,
+        "CHUNK_SIZE": 100
+    },
+
+    "CONVERSATION_HISTORY_LENGTH": 5
+}
